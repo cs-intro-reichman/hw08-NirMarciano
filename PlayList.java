@@ -204,7 +204,7 @@
         for(int j = 0; j < size; j++){
             index = minIndex(j);
             add(j, tracks[index]);
-            remove(index + j);
+            remove(index + 1);
         }
     }
 }
